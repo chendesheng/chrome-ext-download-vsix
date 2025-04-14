@@ -1,3 +1,5 @@
+Genereated by cursor agent base on this stackoverflow thread: https://stackoverflow.com/questions/37071388/how-can-i-install-visual-studio-code-extensions-offline
+
 # VSCode Extension Downloader
 
 A Chrome extension that adds direct download links for VSCode extensions on the Visual Studio Marketplace.
