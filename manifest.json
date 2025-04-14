@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "VSCode Extension Downloader",
+  "version": "1.0",
+  "description": "Adds a direct download link for VSCode extensions on marketplace pages",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://marketplace.visualstudio.com/items*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
